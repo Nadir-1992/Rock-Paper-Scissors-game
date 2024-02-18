@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: rgb(40, 10, 80);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.logo{
+    width: 200px;
+    border-radius: 10%;
+    margin: 0;
+}
+.logo:hover{
+    border: none;
+    background-color: antiquewhite;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.choice{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: red;
+    opacity: 70%;
+}
+
+.board_score{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: rgb(40, 10, 120);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.user_score, .comp_score{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(40, 10, 120);
+}
+
+.msg{
+    background-color: rgb(40, 10, 80);
+    color: white;
+    padding: 12px 24px;
+    display: inline;
+    border-radius: 8px;
+}
+
+.footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(40, 10, 80);
+
+}
